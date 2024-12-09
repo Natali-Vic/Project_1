@@ -1,0 +1,50 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'font', sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	padding-bottom: 20px;
+}
+
+img {
+	width: 270px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.main-content {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ /*min-height: 30vh;*/
+ color: #fff;
+ background-color: #281e49;
+ padding: 0 10px 0 10px;
+}
+.swiper {
+	width: 1170px;
+	margin: 30px auto;
+  }
+
+.swiper-pagination-bullet {
+	width: 15px;
+	height: 15px;
+}
+
+.list__item {
+	list-style-type: none;
+}
+  
