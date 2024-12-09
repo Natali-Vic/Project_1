@@ -20,5 +20,4 @@ const swiper = new Swiper('.swiper', {
 
 new Accordion('.accordion');
 
-console.log('gjhgjhhk');
-console.log(object);
+
